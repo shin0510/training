@@ -1,0 +1,86 @@
+img{
+  width: 100%;
+}
+a:hover{
+  opacity: .8;
+
+}
+body{
+  max-width: 1080px;
+  margin: 0 auto;
+}
+.tel{
+  display: block;
+  width: 68.5%;
+  margin:  5% auto ;
+}
+.insta{
+  display: block;
+  width: 31%;
+  margin: 0 auto 8%;
+}
+
+footer{
+  text-align: center;
+}
+.btn{
+  display: block;
+  width: 80%;
+  margin: 3% auto 5%;
+}
+
+
+
+
+
+
+
+
+
+.btn img{
+  -webkit-animation: float_2978 3s linear infinite;
+  animation: float_2978 2s linear infinite;
+  -webkit-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+}
+@-webkit-keyframes float_2978 {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  33.33333% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+  66.66667% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+@keyframes float_2978 {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  25% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+  50% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  75% {
+    -webkit-transform: translateY(0);
+    transform: translateY(-10px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0px);
+  }
+}
